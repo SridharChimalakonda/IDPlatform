@@ -1,0 +1,280 @@
+#Dida has appended to this file to refer to messages that are printed on the screens 
+
+# The default language is English
+
+# Labels of buttons
+logonButton = Enter
+saveButton = Save
+saveAltButton = Save Changes
+searchButton = Search
+backButton = Back
+includeButton = Include
+
+# Common Labels
+searchResult = Search Results :
+
+# Labels of page / login.jsp
+loginLabel = Login :
+passwordLabel = Password:
+
+
+# Labels of page / about.jsp
+about_pageTitle = About
+
+
+# Labels of page / admin / ontology / add.jsp
+ontAdd_pageTitle = Ontology
+
+ontAdd_fileLabel = * File owl to load . :
+ontAdd_nameLabel = Name Ontology :
+ontAdd_knowLabel = Field of knowledge which belongs :
+ontAdd_descLabel = Short description :
+
+# Labels of page / admin / users / *
+usrAdd_pageTitle = Add User
+usrEdt_pageTitle = Editing user data
+usrSrc_pageTitle = Search Users
+usrRem_pageTitle = Remove User
+
+usrAdd_nameLabel = Full name :
+usrAdd_mailLabel = E- mail :
+usrAdd_typeLabel = Access type :
+usrEdt_accsLabel = Access granted :
+usrEdt_passLabel = Password : (leave blank if you do not want to change it )
+usrEdt_knowLabel = Areas of knowledge that this user is included :
+usrEdt_knnlLabel = User is not included in any area of \u200b\u200bknowledge .
+
+# added by me for users / delete.jsp
+userDeleteUserMsg1 = You are about to remove the user
+userDeleteUserMsg2 = After confirming the action , this user will not be available .
+userDeleteUserMsg3 = Are you sure you want to continue?
+userDeleteUserMsg4 = You can not remove yourself.
+userDeleteUserMsg5 = Back
+
+
+#added by me for users/delete.jsp
+userDeleteUserMsg1 = Voc\u00ea est\u00e1 prestes a remover o usu\u00e1rio
+userDeleteUserMsg2 = Depois de confirmar a a\u00e7\u00e3o, este usu\u00e1rio n\u00e3o estar\u00e1 mais dispon\u00edvel.
+userDeleteUserMsg3 = Tem certeza que deseja continuar?
+userDeleteUserMsg4 = Voc\u00ea n\u00e3o pode remover voc\u00ea mesmo.
+userDeleteUserMsg5 = Voltar
+
+usrEdt_dttbCol1 = Area
+usrEdt_dttbCol2 = Description
+
+usrEdt_addKnow = Select at least one area of expertise to include this user :
+
+usrSrc_srchLabel = Search by user name or login:
+usrSrc_srchNull = No user was found with the term :
+usrSrc_srchEmpty = This system is not storing any user.
+usrSrc_srchLast = Latest users added :
+usrSrc_usersRes = user ( s )
+usrSrc_editBtLb = Edit User
+
+usrSrc_dttbCol1 = Login
+usrSrc_dttbCol2 = User Name
+usrSrc_dttbCol3 = Access type
+usrSrc_dttbCol4 = Created
+
+
+# Labels of page / admin / knowledge / *
+knwAdd_pageTitle = Add area of \u200b\u200bknowledge
+knwSrc_pageTitle = Search for area of \u200b\u200bexpertise
+knwEdt_pageTitle = Edit area knowledge
+knwRlt_pageTitle = Relate author with knowledge area
+knwDel_pageTitle = Remove area of \u200b\u200bknowledge
+
+knwAdd_nameLabel = Area name :
+knwAdd_descLabel = Short description :
+
+knwSrc_srchLabel area = Search by name or part of it :
+knwSrc_srchNull = No area was located to the term :
+knwSrc_srchEmpty = This system is not storing any area of \u200b\u200bknowledge .
+knwSrc_srchLast = Latest added areas :
+knwSrc_knowsRes = area ( s ) of knowledge
+knwSrc_editBtLb = Edit area knowledge
+
+knwSrc_dttbCol1 = Name
+knwSrc_dttbCol2 = Description
+knwSrc_dttbCol3 = Founded in 
+
+# Atributes
+
+#Labels of admin/knowledge/relate.jsp page
+
+relatePageTitleMsg1 = Relate knowledge area with Authors
+
+#Labels of admin/knowledge/remove.jsp page
+
+removePageTitleMsg1 = Remover \u00e1rea de conhecimento
+
+#Labels of admin/knowledge/search.jsp page
+
+
+#Labels of admin/ontology/assitent/create.jsp page
+
+createPageTitleMsg1= Edi\u00e7\u00e3o de Ontologia
+createPageSubTitle2Msg1= Assistente de configura\u00e7\u00e3o - Passo
+createLabel_ClassesMsg1= Selecione as classes da ontologia que este passo ir\u00e1 configurar:
+createAssembleStepMsg1= Montar o passo
+createBackAndCancelMsg1= Voltar e cancelar
+
+createTitleOfStepMsg1= T\u00edtulo do passo: 
+createDescriptionOfStepMsg1 = Description of step
+createNameforTheObjectMsg1 = Name for the object
+createDisplayOrderMsg1 = Display order:
+createPropertyMsg1 = Property
+createFieldNameMsg1 = Nome do campo
+createFieldTypeMsg1 = Field Type
+createOrderMsg1 = Order
+createIsNullMsg1 = Is Null
+createNoDeclaredPropertiesMsg1 = This class has no declared properties
+createBackAndCancelMsg1 = Back and Cancel
+createSaveAndContinueMsg1 = Salvar e adicionar novo passo
+createSaveAndFinishMsg1 = Save and Finish
+
+#Labels of admin/ontology/assitent/delete.jsp page
+
+deleteTextoForm1Msg1 = Voc\u00ea est\u00e1 prestes a remover o passo
+deleteTextoForm1Msg2 = Depois de confirmar a a\u00e7\u00e3o, este passo n\u00e3o estar\u00e1 mais dispon\u00edvel
+deleteTextoForm1Msg3 = Tem certeza que deseja continuar?
+deleteYesMsg1 = Yes
+deleteNoMsg1 = No
+deletePageTitleMsg1 = Edi\u00e7\u00e3o de Ontologia
+
+#Labels of admin/ontology/assitent/edit.jsp page
+
+editPageTitleMsg1= Edi\u00e7\u00e3o de Ontologia
+editPageSubTitle2Msg1= Assistente de configura\u00e7\u00e3o - Editando o passo
+
+editAssembleStepMsg1= Montar o passo
+editBackAndCancelMsg1= Voltar e cancelar
+
+editClassMsg1= Classe: 
+
+editTitleOfStepMsg1= T\u00edtulo do passo: 
+editDescriptionOfStepMsg1 = Description of step:
+editNameforTheObjectMsg1 = Name for the object
+editDisplayOrderMsg1 = Display order:
+editPropertyMsg1 = Property
+editFieldNameMsg1 = Nome do campo
+editFieldTypeMsg1 = Field Type
+editOrderMsg1 = Ordem de exibi\u00e7\u00e3o:
+editIsNullMsg1 = Is Null
+editNoDeclaredPropertiesMsg1 = This class has no declared properties
+editRemoveClassFromThisStepMsg1 = Remover classe deste passo
+editBackAndCancelMsg1 = Back and Cancel
+editSaveChangesMsg1 = Salvar altera\u00e7\u00f5es
+
+
+#Labels of admin/ontology/add.jsp page
+
+#Labels of admin/ontology/config.jsp page
+
+configPageTitleMsg1= Configurar Ontologia
+configOntologySearchMsg1= Buscar Ontologia por nome completo ou parte dele:
+configSearchMsg1= Buscar
+configNoOntologyWasLocalizedeMsg1= Nenhuma ontologia foi localizada com o ter:
+configSearchResultsMsg1= Resultado da busca:
+configOntologiesMsg1= ontologia(s)
+configEditOntologyMsg1= Editar ontologia
+configOntologyMsg1= Ontologia
+configCreatorMsg1= Criador
+configLastModifiedMsg1= \u00daltima modifica\u00e7\u00e3o
+configNotStoringOntologyMsg1= No momento o sistema n\u00e3o est\u00e1 armazenando nenhuma ontologia.
+configLatestOntologiesMsg1= \u00daltimas ontologias adicionadas/modificadas: 
+
+#Labels of admin/ontology/delete.jsp page
+
+ontologyDeletePageTitleMsg1= Remover Ontologia
+
+#the rest of the messages in this page are similar to ontology/assitent/delete.jsp
+
+#Labels of admin/ontology/edit.jsp page - the below has to be updated
+
+editPageTitleMsg1= Edi\u00e7\u00e3o de Ontologia
+editPageSubTitle2Msg1= Assistente de configura\u00e7\u00e3o - Editando o passo
+
+editAssembleStepMsg1= Montar o passo
+editBackAndCancelMsg1= Voltar e cancelar
+
+editClassMsg1= Classe: 
+
+editTitleOfStepMsg1= T\u00edtulo do passo: 
+editDescriptionOfStepMsg1 = Description of step:
+editNameforTheObjectMsg1 = Name for the object
+editDisplayOrderMsg1 = Display order:
+editPropertyMsg1 = Property
+editFieldNameMsg1 = Nome do campo
+editFieldTypeMsg1 = Field Type
+editOrderMsg1 = Ordem de exibi\u00e7\u00e3o:
+editIsNullMsg1 = Is Null
+editNoDeclaredPropertiesMsg1 = This class has no declared properties
+editRemoveClassFromThisStepMsg1 = Remover classe deste passo
+editBackAndCancelMsg1 = Back and Cancel
+editSaveChangesMsg1 = Salvar altera\u00e7\u00f5es
+
+#Labels in DynamicMenu.java and admin/ontology/edit.jsp
+#But I have used constants for DynamicMenu.java and for edit the following
+genOntologiesMsg1 = Ontologias
+genAreasOfExpertiseMsg1 = \u00c1reas de conhecimento
+genUsersMsg1 = Usu\u00e1rios
+genAboutMsg1 = Sobre
+genExitMsg1 = Sair
+genAddMsg1 = Adicionar
+genRemoveMsg1 = Remover
+genEditMsg1 = Editar
+genRelateKnowledgeAreaMsg1 = Relacionar com autores
+genAddedOnMsg1 = Adicionada em:
+genLastUpdatedOnMsg1 = \u00daltima altera\u00e7\u00e3o em:
+genResponsibleMsg1 = Respons\u00e1vel:
+genDescriptionMsg1 = Descri\u00e7\u00e3o:
+genNumberOfClassesMsg1 = Quantidade de classes:
+genAvailableForInstantiationMsg1 = Available for instantiation by author:
+genChangeMsg1 = Alterar
+genConfigurationWizardMsg1 = Assistente de configura\u00e7\u00e3o:
+genCreateStepWizardMsg1 = Criar assistente de configura\u00e7\u00e3o
+genStepsMsg1 = passo(s)
+genClickToCreateStepMsg1 = Clique para criar o passo 
+genMoveUpMsg1 = Mover para cima
+genMoveDownMsg1 = Mover para baixo
+genEditStepMsg1 = Editar passo
+genDeleteStepMsg1 = Excluir passo 
+genStepMsg1 = Passo
+
+
+#Labels of admin/ontology/remove.jsp page - This is similar to admin/ontology/config.jsp page and hence using from them
+
+ontologyRemoveOntologiesMsg1 = Remover Ontologia
+
+#Labels of author/ontology/assistent.jsp
+
+authorOntologyAssistentMsg1 = Assistente de Configura\u00e7\u00e3o de Ontologia
+authorOntologyAssistentMsg2 = Inst\u00e2ncias: 
+authorOntologyAssistentMsg3 = Nome da inst\u00e2ncia: 
+authorOntologyAssistentMsg4 = Salvar nova inst\u00e2ncia
+authorOntologyAssistentMsg5 = Ver todos os passos
+authorOntologyAssistentMsg6 = Voltar ao passo anterior
+authorOntologyAssistentMsg7 = Ir para o pr\u00f3ximo passo
+
+#Labels of author/ontology/details.jsp
+
+authorOntologyDetailsMsg1 = Detalhes da Ontologia
+authorOntologyDetailsMsg2 = Quantidade de passos do assistente:
+authorOntologyDetailsMsg3 = Ir para o
+authorOntologyDetailsMsg4 = Ir para o passo
+
+
+authorOntologySearchMsg1 = em suas \u00e1reas de conhecimento.
+authorOntologySearchMsg2 = Exibir detalhes
+authorOntologySearchMsg3 = \u00c1rea de conhecimento
+authorOntologySearchMsg4 = \u00daltima modifica\u00e7\u00e3o
+authorOntologySearchMsg5 = No momento o sistema n\u00e3o est\u00e1 armazenando nenhuma ontologia que corresponda com as suas \u00e1reas de conhecimento.
+authorOntologySearchMsg6 = \u00daltimas ontologias adicionadas/modificadas: 
+authorOntologySearchMsg7 = \u00daltima modifica\u00e7\u00e3o
+
+
+
+
+
+

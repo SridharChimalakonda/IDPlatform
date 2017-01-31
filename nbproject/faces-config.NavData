@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="admin/ontology/edit.jsp" x="150" y="900" zoom="true"/>
+        <Node id="admin/knowledge/relate.jsp" x="1400" y="150" zoom="true"/>
+        <Node id="admin/ontology/assistent/edit.jsp" x="650" y="750" zoom="true"/>
+        <Node id="admin/knowledge/edit.jsp" x="400" y="600" zoom="true"/>
+        <Node id="admin/knowledge/search.jsp" x="1650" y="300" zoom="true"/>
+        <Node id="admin/users/delete.jsp" x="1900" y="150" zoom="true"/>
+        <Node id="admin/*" x="900" y="300" zoom="true"/>
+        <Node id="admin/users/edit.jsp" x="400" y="750" zoom="true"/>
+        <Node id="index.jsp" x="650" y="150" zoom="true"/>
+        <Node id="author/index.jsp" x="150" y="300" zoom="true"/>
+        <Node id="admin/users/add.jsp" x="650" y="600" zoom="true"/>
+        <Node id="author/ontology/assistent.jsp" x="900" y="750" zoom="true"/>
+        <Node id="admin/ontology/remove.jsp" x="1150" y="150" zoom="true"/>
+        <Node id="admin/ontology/assistent/create.jsp" x="1650" y="150" zoom="true"/>
+        <Node id="admin/ontology/assistent/*" x="900" y="600" zoom="true"/>
+        <Node id="admin/ontology/delete.jsp" x="1400" y="300" zoom="true"/>
+        <Node id="admin/index.jsp" x="150" y="450" zoom="true"/>
+        <Node id="about.jsp" x="1150" y="300" zoom="true"/>
+        <Node id="admin/ontology/assistent/delete.jsp" x="1150" y="450" zoom="true"/>
+        <Node id="admin/users/search.jsp" x="150" y="1050" zoom="true"/>
+        <Node id="default/footer.jsp" x="400" y="150" zoom="true"/>
+        <Node id="admin/knowledge/remove.jsp" x="150" y="750" zoom="true"/>
+        <Node id="admin/users/remove.jsp" x="900" y="450" zoom="true"/>
+        <Node id="admin/users/*" x="400" y="900" zoom="true"/>
+        <Node id="*" x="400" y="450" zoom="true"/>
+        <Node id="author/*" x="1150" y="600" zoom="true"/>
+        <Node id="default/menu.jsp" x="400" y="300" zoom="true"/>
+        <Node id="author/ontology/search.jsp" x="1400" y="450" zoom="true"/>
+        <Node id="default/top.jsp" x="650" y="300" zoom="true"/>
+        <Node id="login.jsp" x="150" y="150" zoom="true"/>
+        <Node id="author/ontology/details.jsp" x="900" y="750" zoom="true"/>
+        <Node id="admin/ontology/add.jsp" x="900" y="150" zoom="true"/>
+        <Node id="admin/knowledge/add.jsp" x="650" y="450" zoom="true"/>
+        <Node id="admin/ontology/config.jsp" x="150" y="600" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+
+<faces-config>
+    
+    <navigation-rule>
+        <from-view-id>/login.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>failureOperation</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>successOperation</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule> 
+    
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>loginPage</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>aboutPage</from-outcome>
+            <to-view-id>/about.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/admin/*</from-view-id>
+        <navigation-case>
+            <from-outcome>addOntology</from-outcome>
+            <to-view-id>/admin/ontology/add.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>configOntology</from-outcome>
+            <to-view-id>/admin/ontology/config.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>removeOntology</from-outcome>
+            <to-view-id>/admin/ontology/remove.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>addKnowledgeArea</from-outcome>
+            <to-view-id>/admin/knowledge/add.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>editKnowledgeArea</from-outcome>
+            <to-view-id>/admin/knowledge/search.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>relateKnowledgeArea</from-outcome>
+            <to-view-id>/admin/knowledge/relate.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>removeKnowledgeArea</from-outcome>
+            <to-view-id>/admin/knowledge/remove.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>addUser</from-outcome>
+            <to-view-id>/admin/users/add.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>editUser</from-outcome>
+            <to-view-id>/admin/users/search.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>removeUser</from-outcome>
+            <to-view-id>/admin/users/remove.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+        
+    <navigation-rule>
+        <from-view-id>/admin/ontology/assistent/*</from-view-id>
+        <navigation-case>
+            <from-outcome>back</from-outcome>
+            <to-view-id>/admin/ontology/assistent/create.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>back2</from-outcome>
+            <to-view-id>/admin/ontology/edit.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>finishedCreation</from-outcome>
+            <to-view-id>/admin/ontology/edit.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/admin/users/*</from-view-id>
+        <navigation-case>
+            <from-outcome>searchUsers</from-outcome>
+            <to-view-id>/admin/users/search.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>editingUser</from-outcome>
+            <to-view-id>/admin/users/edit.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    
+    <navigation-rule>
+        <from-view-id>/author/*</from-view-id>
+        <navigation-case>
+            <from-outcome>searchOntology</from-outcome>
+            <to-view-id>/author/ontology/search.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>ontologyInfo</from-outcome>
+            <to-view-id>/author/ontology/details.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>back2</from-outcome>
+            <to-view-id>/author/ontology/assistent.jsp</to-view-id>
+        </navigation-case>
+        
+    </navigation-rule>
+    
+    <managed-bean>
+        <managed-bean-name>login</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.Login</managed-bean-class>
+            
+        <managed-bean-scope>session</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>dynamicMenu</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.DynamicMenu</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>User</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.core.User</managed-bean-class>        
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>addOntologyBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.AddOntology</managed-bean-class>
+            
+        <managed-bean-scope>session</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>addUserBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.AddUser</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>deleteUserBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.DeleteUser</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>addKnowledgeBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.AddKnowledge</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>searchOntologyBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.SearchOntology</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>searchUserBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.SearchUser</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>searchKnowledgeBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.SearchKnowledge</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>ontologyViewBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.OntologyViewDetails</managed-bean-class>
+            
+        <managed-bean-scope>request</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>createStepsBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.CreateSteps</managed-bean-class>
+            
+        <managed-bean-scope>session</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>createStepClassesBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.CreateStepsClasses</managed-bean-class>
+            
+        <managed-bean-scope>session</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>createStepClassPropertiesBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.CreateStepsClassProperties</managed-bean-class>
+            
+        <managed-bean-scope>session</managed-bean-scope></managed-bean>
+    
+    <managed-bean>
+        <managed-bean-name>assistentBean</managed-bean-name>
+        <managed-bean-class>br.ufal.ic.forbile.autoria.beans.Assistent</managed-bean-class>
+            
+        <managed-bean-scope>session</managed-bean-scope></managed-bean>
+    
+    <validator>
+        <validator-id>uploadValidator</validator-id>
+        <validator-class>br.ufal.ic.forbile.autoria.beans.UploadValidator</validator-class>
+    </validator>
+     
+</faces-config>
